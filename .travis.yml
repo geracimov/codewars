@@ -1,0 +1,10 @@
+language: java
+jdk: openjdk11
+script:
+  - mvn clean package
+notifications:
+  email:
+    recipients:
+      - geracimov@gmail.com
+    on_success: always
+    on_failure: always
