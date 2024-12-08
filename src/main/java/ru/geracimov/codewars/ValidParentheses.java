@@ -1,6 +1,5 @@
 package ru.geracimov.codewars;
 
-import lombok.experimental.UtilityClass;
 
 /**
  * Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid.
@@ -17,7 +16,6 @@ import lombok.experimental.UtilityClass;
  * parentheses (e.g. [], {}, <>).
  * https://www.codewars.com/kata/52774a314c2333f0a7000688
  */
-@UtilityClass
 public class ValidParentheses {
 
     public static boolean validParentheses(String parens) {
